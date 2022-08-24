@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_key = "325bea58cc447e5be8f6281cbe92173e"
+api_key = os.environ['API_KEY']
 end_point = "https://api.openweathermap.org/data/2.5/forecast?"
 
 account_sid = os.environ['TWILIO_ACCOUNT_SID']
